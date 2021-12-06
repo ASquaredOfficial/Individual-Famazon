@@ -1,0 +1,221 @@
+
+#header {
+	color: #FFFFFF;
+	background-color: #131921;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+}
+#headerS {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+}
+#main {
+	color: #000000;
+	background-color: #eaeded;
+	border: 0px;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+}
+#prefooter {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+#subfooter {
+	color: #FFFFFF;
+	background-color: #38445c;
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	text-align:center;
+	display:block;
+}
+#footer {
+	color: #FFFFFF;
+	background-color: #282c3c;
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	display:block;
+}
+#postfooter {
+	background-color: #131a22;
+	display:block;
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+#orangeHover {
+	color: #0066c0;
+}
+#orangeHover:hover {
+	text-decoration: underline;
+	color: #c45500;
+	cursor: pointer;
+}
+.footerLink {
+	color: #dddddd;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+#table2 {
+	width:600px;
+	border:solid 1px black; 
+	display:inline-block;
+}
+#table3 {
+	width:900px;
+	font-size: 13px;
+	border-spacing: 15px 0px;
+	color: #dddddd;
+}
+.pointer {
+	cursor: pointer;
+}
+.font {
+	font-family: Arial Nova;
+}
+input[type=text] {
+	box-sizing: border-box;
+	border: 2px solid #949494;
+	border-radius: 4px;
+	border-width: thin;
+	width: 100%;
+	padding: 8px 10px;
+	outline: none;
+}
+input[type=text]:focus {
+	border: 1px solid #e77600;
+
+}
+.button3 {
+	cursor: pointer;
+	text-align: center;
+	padding: 8px;
+	border-radius: 4px;
+	background-color: #f2ca65;
+	border: 1px solid #a88734;
+}
+.button3:hover {
+	background-color: #eeba34; /* Darker Orange */
+}
+#seacrhButton{
+	background-image:url(Pictures/searchIcon_light.png);  
+	background-size: 30px 30px; 
+	background-repeat: no-repeat; 
+	background-position:center;
+	margin:0; 
+	padding:0; 
+	border:0; 
+	background-color:#FEBD69; 
+	cursor: pointer; 
+	width:40px;
+}
+#seacrhButton:hover{
+	background-image:url(Pictures/searchIcon_dark.png);  
+	background-size: 30px 30px; 
+	background-repeat: no-repeat; 
+	background-position:center;
+	margin:0; 
+	padding:0; 
+	border:0; 
+	background-color:#f3a847; 
+	cursor: pointer; 
+	width:40px;
+}
+.link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+hr {
+	border: 0.5px solid #e0dcdc;
+}
+#toTop:hover {
+	background-color: #50546c;
+}
+th {
+	font-weight: bold;
+	font-family: Arial Nova;
+	width:100%;
+	font-size:15px;
+}
+.selectCategory {
+	background-color:#f3f3f3;
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	font-size:15px; 
+	color:#555555;
+}
+.selectCategory:hover {
+	background-color:#dadada;
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	color:#000000;
+}
+.fourthT {
+	padding-left:50px;
+}
+#basket {
+	font-family: Bahnschrift Condensed; color: #f08804; font-size:25px; background-image:url(Pictures/basket_icon.png);  
+	background-size: 89px 50px; background-repeat: no-repeat; 
+	background-position:10px 2px; width: 120px; cursor: pointer; padding-bottom:10px; text-indent: 40px;
+}
+#twitchApp {
+	background-image:url(Pictures/FamazonApps/twitch.png); 
+}
+#primeApp {
+	background-image:url(Pictures/FamazonApps/prime.png);
+}
+#imdbApp {
+	background-image:url(Pictures/FamazonApps/IMDb.png);
+}
+#musicApp {
+	background-image:url(Pictures/FamazonApps/music.png);
+}
+#audibleApp  {
+	background-image:url(Pictures/FamazonApps/audible.png);
+}
+#alexaApp  {
+	background-image:url(Pictures/FamazonApps/alexa.png);
+}
+.friendApp {
+	filter: grayscale(100%);
+    opacity: 0.6;
+    transition: .6s;
+	border: 1px solid white; background-color:gray; background-size: 300px 293px; 
+	background-repeat: no-repeat; width: 299px; cursor: pointer;
+}
+.friendApp:hover {
+	filter: grayscale(0%);
+    opacity: 1;
+    margin-top: -5px;
+    box-shadow: 0px 18px 22px -15px rgb(0 0 0 / 30%);
+	
+}
